@@ -1,0 +1,221 @@
+#main >nav >a{
+    
+    margin-top: 20px;
+}
+
+#main >nav >a>img{
+    height: 80px;
+    border-radius: 100px;
+    width: 80px;
+    border: 1px solid orangered;
+    transition: all ease-in-out 0.3s;
+
+
+}
+
+#main >nav >a>img:hover{
+  transform: rotate(45deg);
+}
+#main >nav > div>a{
+    font-size: 1.5rem;
+    color: rgb(80, 80, 205);
+    transition: all ease-in-out 0.3s;
+
+}
+#main >nav >div>a:hover{
+    /* border-bottom: 3px solid rgb(80, 80, 205); */
+    border-bottom: 3px solid white;
+    color: white;
+    font-size: 1.7rem;
+
+}
+
+.card>button{
+    transition: all ease-in-out 0.3s;
+}
+.card>button:hover{
+    background-color: rgb(80, 80, 205);;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+
+.section4{
+
+    height: 110vh;
+    background:linear-gradient(150deg, rgb(255, 166, 0), rgb(255, 94, 0));
+
+}
+.four{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5vw;
+    width: 100%;
+    /* height: 100vh; */
+    /* flex-direction: column; */
+
+}
+
+.four_content{
+    display: flex;
+    justify-content: space-around;
+    /* border: 2px solid red; */
+    height: 90vh;
+    margin: 20px;
+    width: 80%;
+}
+
+.left-part{
+    width: 38%;
+    height: 70%;
+}
+
+.right-part{
+    width: 38%;
+    /* border: 2px solid white; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    /* justify-content: center; */
+    background:rgb(80,80,205);
+    flex-direction: column;
+    color: white;
+    height: 60vh;
+    /* margin-top: -20%; */
+    gap: 2rem;
+}
+.right-part>h2{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.left-part{
+    text-align: center;
+    /* margin: 14% auto; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 2rem;
+}
+.left-part>p{
+    color: #312828;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+}
+
+.input >input{
+border:none;
+outline: none;
+background: transparent;
+margin: 20px;
+border-bottom:2px solid white;
+cursor: pointer;
+font-size:1rem;
+transition:all ease-in-out 0.3s;
+font-weight: bold;
+letter-spacing: 0.2rem;
+color:white;
+&::placeholder{
+    color: white;
+
+}
+&:hover{
+ font-size: 1.3rem;
+ line-height: 1.5rem;
+}
+}
+.input>input:focus{
+    font-size: 1.3rem;
+    color: white;
+}
+
+.input>button{
+    border: none;
+    background: rgb(80, 80, 205);
+    color: white;
+    padding: 10px;
+    width: 90%;
+    margin: 20px;
+    transition: all ease-in-out 0.3s;
+    border-radius: 100px;
+    cursor: pointer;
+    
+
+    &:hover{
+        font-weight: 500;
+        background: white;
+        border: 3px solid rgb(80,80,205);
+        background: rgb(109, 109, 203);
+    }
+}
+
+.contact-icon .bg{
+    height:50px;
+    width: 50px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    transition: all ease-in-out 0.3s;
+    &:hover{
+        height: 60px;
+        width: 60px;
+        border: 3px solid rgb(0,0,0);
+        cursor: pointer;
+    }
+}
+.contact-icon .bg>img{
+    height: 50%;
+    width:50%;
+}
+.contact-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 10px;
+}
+.info-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact-icon>h3{
+    color: white;
+    letter-spacing: 0.2rem;
+}
+.schedule-icon .bg{
+ margin-left: 25px;
+ 
+}
+
+.contact-title{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+
+}
+.contact-title>h1{
+    color: white;
+    font-size: 2rem;
+    padding-top: 50px;
+    letter-spacing: 0.2rem;
+    font-weight: bolder;
+    border-bottom: 3px solid white;
+    }
